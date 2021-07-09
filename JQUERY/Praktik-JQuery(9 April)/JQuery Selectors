@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+        $ (document) .ready(function() {
+            $ (".intro") .css ("background-color","orange");
+            $ ("#title") .css ("color","blue");
+            $ ("[href^='Penguins']") .css ("background-color","violet");
+        });
+        </script>
+    </head>
+    <body>
+        <h2 id="title">Welcome to My Page</h2>
+        <p class="intro">jQuery Scripting</p>
+        <p class="intro">jQuery Example</p>
+        <a href="Penguins.jpg">Show Penguins</a>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        $ (document).rady(awal);
+        function awal()
+        {
+            $("#into2").hide();
+        }
+        
+        function hilang()
+        {
+            $("#info").fadeTo(4000,0.25);
+            $("#info2").fadeTo(4000,1);
+
+            /*$("#info").fadeTo(4000,0.25,function(){
+                $("#info2").fadeTo(4000,1);
+            });*/
+        }
+        </script>
+    </head>
+    <body>
+        <div id="info" style="background-colorL#FC6; height:100px; width:200px">
+        </div><br/>
+        <div id="info2" style="background-color:#99C; height:100px; width:200px">
+        informasi 2
+        </div>
+    </body>
+</html>

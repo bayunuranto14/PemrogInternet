@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+        $ (document) .ready(function(){
+            $("[type='button']").click(function(){
+                $("p.sample").toggle();
+            });
+            
+            $(".flip").click(functuin(){
+                $(".panel") .slideToggle("alow");
+            });
+        });
+        </script>
+
+        <style type="text/css">
+        div.panel,p.flip
+        {
+            margin:0px;
+            padding:5px;
+            text-align:center;
+            background:#9cf;
+            border:solid 1px #90f;
+        }
+        div.panel
+        {
+            height:120px;
+            display:none;
+        }
+        </style>
+    </head>
+    <body>
+        <div style="background-color:#ccf">
+            <p class="sample">Learning jQuery</p>
+            <p class="sample">This is a Paragraph with little content.</p>
+        </div>
+        <input type="button" value="Toggle">
+        <br/><br/>
+        <div class="panel">
+            <p>
+                Because time is valuable, we deliver quick and easy learning.
+            </p>
+            <p>
+                At W35Schools, you can study everything you beed to learn, in an accessible and handy format.</p>
+            </p>
+        </div>
+        <p class="flip">Show/Hide Panel</p>
+    </body>
+    <body>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        $ (document).ready();
+        function animasi()
+        {
+            $("div").animate({top:"300px"},"normal");
+            $("div").animate({left:"300px"},"normal");
+            $("div").animate({top:"20px"},"normal");
+            $("div").animate({left:"0px",fontsize:"3em",width:"200px"},"normal");
+        }
+        </script>
+
+        <style type="text/css">
+        div{
+            background-color:#6F9;
+            height:100px;
+            width:100px;
+            top:20px;
+            position:relative;
+        }
+        </style>
+    </head>
+    <body>
+        <input type="button" onClick="animasi()" value="Animasi">
+        <div>Hellooo.....</div>
+    </body>
+</html>

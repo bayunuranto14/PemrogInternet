@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Menggunakan MySQL Connect</title>
+</head>
+<body>
+<?php
+//alamat host local atau dapat menggunakan IP
+$host=“localhost”;
+//masukkan user dan password dari MySQL
+$user = “ “;
+$password = “ “;
+mysql connect($host, $user, $pass)
+or die (“Koneksi gagal dilakukan : “.mysql_error());
+echo “koneksi sukses”;
+?>
+</body>
+</html>
